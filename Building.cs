@@ -2,7 +2,6 @@ using System;
 
 namespace Planner
 {
-    // Define class here
     public class Building
     {
 
@@ -43,12 +42,13 @@ namespace Planner
 
         public void GetDetails()
         {
-            Console.WriteLine($"{_address}");
             Console.WriteLine("-----------------");
+            Console.WriteLine($"{_address}");
             Console.WriteLine($"Designed by {_designer}");
             Console.WriteLine($"Constructed on {_dateConstructed}");
             Console.WriteLine($"Owned by {_owner}");
             Console.WriteLine($"{Volume} cubic meters of space");
+            Console.WriteLine("-----------------");
 
         }
     }
